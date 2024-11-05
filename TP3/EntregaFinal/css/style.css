@@ -1571,15 +1571,20 @@ li:hover {
 
 .perfilDesplegado.show, .carritoDesplegado.show, .hamburguer-menu-desplegado.show {
     padding: 0.1em;
-    width: 8.5rem;
+    width: 4rem;
     height: 7rem;
-    left: 66rem;
+    left: 20.5rem;
     background-color: rgba(57, 49, 49, 1);
     position: absolute;
     top: 3.5rem;
     display: flex;
     z-index: 3;
     color: var(--blanco);
+}
+
+.carritoDesplegado.show{
+    left: 19rem;
+    height: 3.5rem;
 }
 
 .perfilDesplegado.show {
