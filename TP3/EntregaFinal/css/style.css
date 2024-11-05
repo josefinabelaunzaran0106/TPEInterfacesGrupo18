@@ -93,11 +93,19 @@ button {
 }
 
 .iconosnav{
-    width: 20%;
+    width: 30%;
     display: flex;
     align-items: center;
     padding-right: 1em;
     padding-left: 0.5em;
+    justify-content: flex-end;
+}
+
+.ffficonosnav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .buscarnav{
@@ -148,6 +156,8 @@ button {
     width: auto;
     height: 50%;
     text-align: right;
+    margin-left: 10px;
+    padding-right: 5px;
 }
 
 .perfil button{
